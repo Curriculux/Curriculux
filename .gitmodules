@@ -1,0 +1,12 @@
+[submodule "buildout.coredev"]
+	path = buildout.coredev
+	url = git@github.com:Curriculux/buildout.coredev.git
+[submodule "frontend"]
+	path = frontend
+	url = git@github.com:Curriculux/frontend.git
+[submodule "Products.CMFPlone"]
+	path = Products.CMFPlone
+	url = git@github.com:Curriculux/Products.CMFPlone.git
+[submodule "Documentation"]
+	path = Documentation
+	url = git@github.com:Curriculux/Documentation.git

@@ -1,0 +1,14 @@
+{
+  "name": "curriculux",
+  "version": "1.0.0",
+  "description": "Curriculux - K-12 Science Education Platform",
+  "scripts": {
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "frontend": "cd frontend && npm run dev",
+    "backend": "cd buildout.coredev && bin/instance fg",
+    "install:all": "npm install && cd frontend && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

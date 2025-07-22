@@ -1,0 +1,66 @@
+# Dependencies
+node_modules/
+*.egg-info/
+
+# Build outputs
+buildout.coredev/bin/
+buildout.coredev/eggs/
+buildout.coredev/parts/
+buildout.coredev/var/
+buildout.coredev/.installed.cfg
+buildout.coredev/.mr.developer.cfg
+buildout.coredev/lib/
+buildout.coredev/include/
+buildout.coredev/src/*
+!buildout.coredev/src/Products.CMFPlone
+
+# Frontend build
+frontend/.next/
+frontend/out/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Claude
+.claude/
